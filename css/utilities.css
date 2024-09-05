@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* mobile overlay menu */
+
+body{
+  background: url(/img/survey-bg.jpg) no-repeat fixed;
+  background-size: cover;
+}
+.mobile-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .mobile-menu-click {
+    width: 60%;
+    height: 62vh;
+    line-height: 14vh;
+    position: fixed;
+    top: 8%;
+    left: 35%;
+    margin-left: -14%;
+    background-color: #acd8d8;
+    border-radius: 16px;
+    text-align: center;
+    border: 3.5px solid #000;
+    z-index: 10;
+  }
+
+.nav-ul-mobile{
+    list-style: none;
+}
+
+.nav-list-mobile{
+    margin: 0 23px;
+}
+
+.nav-list-mobile a{
+    margin: 0 23px;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-list-mobile a:hover{
+    margin: 0 23px;
+    color: yellow;
+    text-decoration: none;
+}
+
+

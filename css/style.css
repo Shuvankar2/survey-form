@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header  */
+
+header{
+    background-color: #5dc25a;
+    color: #000;
+    height: 4.5vw;
+}
+
+/* CSS Animation for screen width change */
+
+@media screen and (min-width: 850px){
+.nav-list-menu{
+    margin: 0 23px;
+    display: none;
+    }
+}
+@media screen and (min-width: 400px){
+    .nav{
+        height: 4.5vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+}
+@media screen and (max-width: 850px){
+    header{
+    background-color: #5dc25a;
+    color: #000;
+    height: 45px;
+    
+}
+.nav{
+    height: 4.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+margin: 0 23px;
+display: none;
+}
+
+.nav-list-menu{
+margin: 0 23px;
+font-size:1.5em;
+border: 2px solid transparent;
+border-radius: 6px;
+
+}
+.nav-list-menu:hover{
+margin: 0 23px;
+font-size:1.5em;
+border: 2px solid black;
+border-radius: 6px;
+
+}
+
+.nav-list-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+}
+
+
+/* Navigation Bar Properties */
+
+.nav{
+    height: 54.5px;
+    /* height: 6vw; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-left{
+    font-weight: 600;
+    padding: 15px;
+    width: 65vh;
+    font-size: 1.4rem;
+}
+
+.nav-ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 3vw;
+
+}
+
+.nav-list{
+    margin: 0 23px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+}
+.nav-list:hover{
+    margin: 0 23px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* Mobile Header */
+@media screen and (max-width: 400px){
+    header{
+    background-color: #5dc25a;
+    color: #000;
+    height: 18vw; 
+}
+
+.nav{
+    height: 4.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+}  
+.survey-welcome{
+    display: flex;
+    justify-content: center;
+    min-height: calc(100vh - 4.5vw);
+    align-items: center;
+    width: 100%;
+    background: url(/img/survey-bg.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.survey-intro-box{
+    background-color: transparent;
+    position: relative;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid rgba(71, 67, 67, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+}
+
+.survey-intro-welcome{
+    font-size: 1.5rem;
+}
+
+.survey-intro-para{
+    padding: 3px;
+    margin: 15px;
+}
+
+.survey-intro-welcome-continue{
+    margin: 24px;
+    text-align: center;
+    margin-left: -150px;
+}
+.survey-intro-welcome-continue-wel{
+    margin: 24px;
+    text-align: center;
+    margin-left: -115px;
+}
+
+.survey-intro-btn-cont{
+    width: 290%;
+    height: 40px;
+    border-radius: 40px;
+    background: blue;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    color: #fff;
+}
+.survey-intro-btn-cont:hover{
+    width: 290%;
+    height: 40px;
+    border-radius: 40px;
+    background: rgb(188, 167, 167);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    color: #000;
+}
+.survey-intro-btn{
+    width: 564%;
+    height: 40px;
+    border-radius: 40px;
+    background: blue;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    color: #fff;
+}
+.survey-intro-btn:hover{
+    width: 564%;
+    height: 40px;
+    border-radius: 40px;
+    background: rgb(188, 167, 167);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    color: #000;
+}
+
+/* Privacy Policy */
+
+.privacy-box {
+    background-color: antiquewhite;
+    border: 3.5px solid darkred;
+}
+
+/* General Info. /2.html */
+
+.input-name {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #000;
+}
+.input-name input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #262c2c;
+}
+
+.input-name label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #534d4d;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+    }
+    input:focus ~ label,
+    input:valid ~ label{
+    display: none;
+    }
+
+    /* 5.html Textarea Response descriptive */
+
+.input-tarea {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #000;
+}
+.input-tarea textarea {
+    width: 87%;
+    height: 70px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #262c2c;
+    resize: none;
+
+}
+
+/* 7.html Checkbox align */
+
+.box-align {
+    display: flex;
+    flex-direction: column;
+    align-items: last baseline;
+}
+
+/* 8.html Textarea */
+
+.input-tarea-8 {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #000;
+}
+.input-tarea-8 textarea {
+    width: 87%;
+    height: 25px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #262c2c;
+    resize: none;
+}
+.survey-intro-para{
+    padding: 3px;
+}
+
+/* 9.html Image align */
+
+.srk-love {
+    height: 85px;
+    border-radius: 9px;
+    border: 2px solid yellow;
+}
+.txt-9-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* 10.html Feedback */
+
+.input-tarea-10 {
+    position: relative;
+    margin: 30px 0;
+    width: 405px;
+    border-bottom: 2px solid #000;
+}
+.input-tarea-10 textarea {
+    width: 90%;
+    height: 113px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #262c2c;
+    resize: none;
+
+}
+
+/* 11.html Close Button */
+
+.survey-intro-btn-close{
+    width: 288%;
+    height: 40px;
+    border-radius: 40px;
+    background: blue;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    color: #fff;
+}
+.survey-intro-btn-close:hover{
+    width: 288%;
+    height: 40px;
+    border-radius: 40px;
+    background: rgb(188, 167, 167);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    color: #000;
+}
