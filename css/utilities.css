@@ -3,7 +3,7 @@
 /* mobile overlay menu */
 
 body{
-  background: url(survey-form/img/survey-bg.jpg) no-repeat fixed;
+  background: url(/img/survey-bg.jpg) no-repeat fixed;
   background-size: cover;
 }
 .mobile-menu {
