@@ -131,7 +131,7 @@ nav ul li a{
     min-height: calc(100vh - 4.5vw);
     align-items: center;
     width: 100%;
-    background: url(/img/survey-bg.jpg)no-repeat;
+    background: url(/survey-form/img/survey-bg.jpg)no-repeat;
     background-position: center;
     background-size: cover;
 }
